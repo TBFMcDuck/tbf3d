@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+}
+
+#title {
+  font-family: 'Space Mono', monospace;
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border: 50px;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem); 
+  text-decoration: none;
+}
+
+#title:hover {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 75px;
+}
+
+.undertitle {
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  padding: 3px;
+  border-radius: 5px; 
+}
+
+.undertitle:hover {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+#abouMe {
+  padding-top: 100px;
+}
+
+#prevPro {
+  padding-bottom: 250px;
+}
+
+footer {
+  color: #595959;
+  font-size:14px;
+  text-align:center;
+  margin-top:10px;
+}
