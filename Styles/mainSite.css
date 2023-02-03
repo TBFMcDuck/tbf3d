@@ -5,7 +5,7 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
-  background-image: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+  background-image: linear-gradient(45.34deg, #ebe866 5.66%, #FA5F55 94.35%);
 }
 
 #title {
