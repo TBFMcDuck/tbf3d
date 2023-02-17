@@ -58,6 +58,10 @@ body {
 }
 
 #gamesDownloadLink {
+  padding-bottom: 10px;
+}
+
+#gamesWebLink {
   padding-bottom: 250px;
 }
 
