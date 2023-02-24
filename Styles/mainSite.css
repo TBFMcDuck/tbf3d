@@ -34,6 +34,10 @@ body {
   padding: 75px;
 }
 
+.underUndertitle {
+  margin: 1px;
+}
+
 .undertitle {
   font-size: 30px;
   text-decoration: none;
@@ -66,10 +70,17 @@ body {
 }
 
 .gameLink {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
   font-family: 'Space Mono', monospace;
+  text-decoration: none;
   padding: 3px;
   border-radius: 5px; 
+}
+
+.gameLink:hover {
+  text-decoration: underline;
 }
 
 footer {
