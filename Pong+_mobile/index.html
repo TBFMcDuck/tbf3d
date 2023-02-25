@@ -1,14 +1,14 @@
 <html lang="en-us"><script src="https://pygame-web.github.io/archives/0.6/pythons.js" type=module id="site" data-os="vtx,fs,snd,gui" async defer>#<!--
 
 print("""
-Loading pong+ from pong+.apk
+Loading pong+_mobile from pong+_mobile.apk
     Pygbag Version : 0.6.6
     Template Version : 0.6.6
     Python  : 3.11
     CDN URL : https://pygame-web.github.io/archives/0.6/
     Screen  : {{cookiecutter.width}}x{{cookiecutter.height}}
-    Title   : pong+
-    Folder  : pong+
+    Title   : pong+_mobile
+    Folder  : pong+_mobile
     Authors : pgw
     SPDX-License-Identifier: cookiecutter.spdx
 
@@ -84,12 +84,12 @@ async def custom_site():
 
 
 
-    apk = "pong+.apk"
+    apk = "pong+_mobile.apk"
 
-    bundle = "pong+"
+    bundle = "pong+_mobile"
 
     # the C or js loader could do that but be explicit.
-    appdir = Path(f"/data/data/{bundle}") # /data/data/pong+
+    appdir = Path(f"/data/data/{bundle}") # /data/data/pong+_mobile
     appdir.mkdir()
 
 
@@ -239,7 +239,7 @@ config = {
     user_canvas_managed : 0,
     ume_block : 1,
     can_close : 0,
-    archive : "pong+",
+    archive : "pong+_mobile",
     gui_debug : 3,
     cdn : "https://pygame-web.github.io/archives/0.6/",
     autorun : 0,
@@ -248,7 +248,7 @@ config = {
 
 </script>
 
-    <title>pong+</title>
+    <title>pong+_mobile</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
