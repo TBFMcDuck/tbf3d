@@ -1,0 +1,21 @@
+#gamesDownloadLink {
+    padding-bottom: 10px;
+  }
+  
+#gamesWebLink {
+padding-bottom: 250px;
+}
+
+.gameLink {
+font-size: 25px;
+font-weight: bold;
+color: white;
+font-family: 'Space Mono', monospace;
+text-decoration: none;
+padding: 3px;
+border-radius: 5px; 
+}
+
+.gameLink:hover {
+text-decoration: underline;
+}

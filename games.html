@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="Styles/games.css" rel="stylesheet">
+        <link href="Styles/mainSite.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="main">
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a class="active" href="games.html">Games</a>
+            </div>
+
+            <a href="#top" id = "title">TBF3D</a>
+            <hr>
+
+            <div class = "paragraph" id = "gamesDownloadLink">
+                <a href="#gamesDownloadLink" class = "undertitle">Download links:</a> <br>
+                <a href="Games/Pong.zip" download class="gameLink">Pong</a>
+                <a>|</a>
+                <a href="Games/Tic_Tac_Toe.zip" download class="gameLink">Tic Tac Toe</a>
+                <a>|</a>
+                <a href="Games/AnyDino.game.zip" download class="gameLink">AnyDino.game</a>
+                <a>|</a>
+                <a href="Games/Balancing_bros.zip" download class="gameLink">Balancing Bros</a>
+            </div>
+            <div class = "paragraph" id = "gamesWebLink">
+                <a href="#gamesWebLink" class = "undertitle">Webgames links:</a> <br>
+                <p class = "underUndertitle">(Works best on Android/Windows)</p>
+                <a href="Pong+" class="gameLink"  id = "pong+">Pong+</a>
+                <a href="Pong+Mobile" class="gameLink" id = "pong+Mobile">Pong+</a>
+                
+            </div>
+        </section>
+        <footer>
+            <p>...</p>
+        </footer>
+    </body>
+    <script>
+        var pongWeb = document.getElementById("pong+")
+        var pongWebMobile = document.getElementById("pong+Mobile")
+        
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+            // true for mobile device
+            pongWebMobile.style.display = "block";
+            pongWeb.style.display = "none";
+        }else{
+            // false for not mobile device
+            pongWebMobile.style.display = "none";
+            pongWeb.style.display = "block";
+        }
+    </script>
+</html>

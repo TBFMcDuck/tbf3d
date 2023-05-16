@@ -6,8 +6,14 @@
     </head>
     <body>
         <section class="main">
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="games.html">Games</a>
+            </div>
+
             <a href="#top" id = "title">TBF3D</a>
             <hr>
+
             <div class = "paragraph" id = "abouMe">
                 <a href="#abouMe" class = "undertitle">About me:</a>
                 <p>I am a 15 year old norwegian boy with a passion for programming, 3d-printing, floorball, music and scouting.</p>
@@ -22,40 +28,8 @@
                 <p>When it comes to 3d printing I have printed a fully working trumpet for a friend.</p> 
                 <p>I am also working on making the perfect peagun, with lasersight, reloading and other gadgets. </p>
             </div>
-            <div class = "paragraph" id = "gamesDownloadLink">
-                <a href="#gamesDownloadLink" class = "undertitle">Download links:</a> <br>
-                <a href="Games/Pong.zip" download class="gameLink">Pong</a>
-                <a>|</a>
-                <a href="Games/Tic_Tac_Toe.zip" download class="gameLink">Tic Tac Toe</a>
-                <a>|</a>
-                <a href="Games/AnyDino.game.zip" download class="gameLink">AnyDino.game</a>
-                <a>|</a>
-                <a href="Games/Balancing_bros.zip" download class="gameLink">Balancing Bros</a>
-            </div>
-            <div class = "paragraph" id = "gamesWebLink">
-                <a href="#gamesWebLink" class = "undertitle">Webgames links:</a> <br>
-                <p class = "underUndertitle">(Works best on Android/Windows)</p>
-                <a href="Pong+" class="gameLink"  id = "pong+">Pong+</a>
-                <a href="Pong+Mobile" class="gameLink" id = "pong+Mobile">Pong+</a>
-                
-            </div>
         <footer>
-            <p>Very cool bottom text</p>
+            <p>...</p>
         </footer>
-    
-        <script>
-            var pongWeb = document.getElementById("pong+")
-            var pongWebMobile = document.getElementById("pong+Mobile")
-            
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                // true for mobile device
-                pongWebMobile.style.display = "block";
-                pongWeb.style.display = "none";
-            }else{
-                // false for not mobile device
-                pongWebMobile.style.display = "none";
-                pongWeb.style.display = "block";
-            }
-        </script>
     </body>
 </html>
