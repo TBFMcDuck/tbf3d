@@ -18,10 +18,10 @@ body {
 .topnav {
   position: fixed;
   top: 0;
-  left: 50%;
+  left: 20%;
   transform: translateX(-90%);
-  width: 600px; /* Adjust the value as per your preference */
-  background-color: transparent;
+  width: 251px; /* Adjust the value as per your preference */
+  background-color: rgba(53, 52, 52, 0.5);
   overflow: hidden;
 }
 
