@@ -18,8 +18,7 @@ body {
 .topnav {
   position: fixed;
   top: 0;
-  left: 20%;
-  transform: translateX(-90%);
+  left: 5%;
   width: 251px; /* Adjust the value as per your preference */
   background-color: rgba(53, 52, 52, 0.5);
   overflow: hidden;
