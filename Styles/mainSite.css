@@ -12,16 +12,15 @@ body {
   background-attachment: fixed; /* Fix the background position relative to the viewport */
 }
 
-
-
 /* Add a black background color to the top navigation */
 .topnav {
   position: fixed;
   top: 0;
   left: 5%;
-  width: 251px; /* Adjust the value as per your preference */
+  /* width: 251px; Remove this line */
   background-color: rgba(53, 52, 52, 0.5);
   overflow: hidden;
+  display: inline-block; /* Add this line. It makes the container fit its content */
 }
 
 /* Style the links inside the navigation bar */
